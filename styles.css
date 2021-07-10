@@ -7,6 +7,14 @@ body {
 }
 /************************************* DIVS ******************************************/
 
+.header-div {
+    position: fixed;
+    background-color: #30E3CA;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
 .top_box {
     margin: 0;
     padding-top: 100px;
@@ -41,16 +49,41 @@ h2 {
     color: #11999E;
 }
 
+h3 {
+    color: #11999E;
+}
+
 .prog {
     font-size: 1.875rem;
     color: #40514E;
 }
 /************************************* TEXT ******************************************/
+.contact-header {
+    position: absolute;
+    bottom: 10px;
+    color: #40514E;
+    text-decoration: none;
+    right: 10px;
+}
+.contact-header:hover {
+    position: absolute
+    top: 10px;
+    color: #E4F9F5;
+}
 
 .contact-title {
     margin: 0;
     padding-top: 100px;
     color: #11999E;
+}
+
+.footer-link {
+    color: #40514E;
+    text-decoration: none;
+    margin: 30px;
+}
+.footer-link:hover {
+    color: #E4F9F5;
 }
 
 .skill-row {
@@ -74,6 +107,10 @@ hr {
     border-color: #88FFF7;
     border-width: 8px;
     width: 8%;
+}
+
+.copyright {
+    color: #E4F9F5;
 }
 
 /************************************* IMAGES ******************************************/
@@ -102,6 +139,9 @@ hr {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%)
+    /*position: relative;
+    top: 20%;
+    width: 65%;*/
 }
 
 .wok {
@@ -115,8 +155,45 @@ hr {
     float: right;
     margin-left: 30px;
 }
+
+.guy {
+    margin: 5px;
+    width: 5%;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #F9F7F7;
+}
 /************************************* OTHER ******************************************/
 
 form {
     padding-top: 100px;
+}
+
+.BUTTON_IOG {
+    margin-top: 60px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #40514E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #30E3CA;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_IOG:hover {
+    border: solid #11999E 1px;
+    background: #11999E;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
